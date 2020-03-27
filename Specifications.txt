@@ -1,0 +1,73 @@
+/*********************\
+|       AMAZITE       |
+\*********************/
+
+0. Planets :
+
+Planet = Size (= Earth Size (square) + Ocean Size (square), Random) + Name (Random) + Buildings (between 1 and 10)
+
+
+1. Buildings :
+
+Building = Size (square) + Name (Random) + Type (Random) + Price (Depending of the type) + Icon (Random)
+
+	1.a Buildings names :
+
+	BASE :
+
+		Factory
+		Plant
+		Mill
+		Industry
+		Transformer
+		Condenser
+		Mixer
+		Detacher
+		Merge tool
+		Separator
+		Container
+
+	1.b Buildings types :
+
+	Common :
+
+		"Amazite production is increased by X."
+		"The amount of storable Amazite is increased by X."
+
+	Rare :
+
+		"Production of 'building type' is increased by X%."
+		"Resource cost of other buildings is reduced by X%."
+		"Overall production is increased by X%."
+		"Size of the planet is increased by X square."
+
+	Legendary :
+
+		"Amazite production is multiplied by X".
+
+
+
+2. Researches :
+	
+Research = Price (Random) + Duration (Random between two values) + Name (Random) + Icon (Random)
+Always unlock the next buildings of the building list.
+
+3. Upgrades :
+
+Upgrade = Price (Not Random) + Name (Not Random) + Icon (Not Random)
+
+On a list.
+
+	3.a Upgrades names and effects :
+	
+	Colonization of the oceans. "The potential of the seas of your planets is unlocked." Add the Ocean Size to the Usable Size
+	Colonization of the sky. "The usable size of your planets are doubled." The Usable Size is doubled.
+
+
+
+Code rules :
+
+Classe : UpperCamelCase
+Public variable & function : lowerCamelCase
+Private variable & function : _lowerCamelCase
+Constant string : " "
